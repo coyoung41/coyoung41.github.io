@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 # permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'Most imitation learning methods assume perfect expert demonstrations, yet real data is often noisy. We propose a filter-and-restore framework that isolates clean samples and uses conditional diffusion models to recover noisy demonstrations. Experiments on robot arm manipulation, dexterous manipulation, and locomotion show consistent improvements over existing methods, with ablations confirming robustness to diverse noise types and levels.'
-date: 2026-01
+date: 2026-01-01
 venue: 'IEEE Transactions on Neural Networks and Learning Systems'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11168119'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
