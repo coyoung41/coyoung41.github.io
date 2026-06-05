@@ -6,7 +6,7 @@ category: workshop
 excerpt: 'Offline model-based planning can adapt policies at test time, but performance depends on a planning horizon and action proposer that are often tuned online. We propose SHARP (Soft Horizon AggRegation for Planning), which weights multi-horizon returns by ensemble dynamics uncertainty to avoid fixed-horizon tuning. SHARP-BC pairs this with a simple behavior-cloning action proposer, matching or beating baselines with less hyperparameter search.'
 date: 2026-06-15
 venue: 'ICML 2026 workshop on Decision-Making from Offline Datasets to Online Adaptation: Black-Box Optimization to Reinforcement Learning'
-paperurl: 'https://openreview.net/group?id=ICML.cc/2026/Workshop/DEMO/Authors&referrer=%5BHomepage%5D(%2F)'
+paperurl: 'https://openreview.net/forum?id=EumxjaTQ8F'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
