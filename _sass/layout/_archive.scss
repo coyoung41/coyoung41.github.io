@@ -72,21 +72,39 @@
   img {
     width: 100%;
   }
+}
 
-  /* small figure thumbnail shown beside an entry in list view (e.g. publications) */
-  &--thumb {
-    float: left;
-    width: 140px;
-    margin: 0 1.25em 0.75em 0;
+/* figure + description row shown under the title/venue of a list entry (e.g. publications) */
+.archive__item-figure-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0.5em 0 1em;
 
-    @include breakpoint($small) {
-      width: 180px;
-    }
+  @include breakpoint($small) {
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 
-.archive__item {
-  overflow: auto; /* clearfix so a floated figure thumbnail doesn't overlap the next entry */
+.archive__item-teaser--thumb {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 220px;
+
+  @include breakpoint($small) {
+    width: 140px;
+    max-width: none;
+  }
+}
+
+.archive__item-figure-text {
+  flex: 1 1 auto;
+  min-width: 0;
+
+  .archive__item-excerpt {
+    margin-top: 0;
+  }
 }
 
 .archive__item:hover {
