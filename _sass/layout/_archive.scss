@@ -72,6 +72,21 @@
   img {
     width: 100%;
   }
+
+  /* small figure thumbnail shown beside an entry in list view (e.g. publications) */
+  &--thumb {
+    float: left;
+    width: 140px;
+    margin: 0 1.25em 0.75em 0;
+
+    @include breakpoint($small) {
+      width: 180px;
+    }
+  }
+}
+
+.archive__item {
+  overflow: auto; /* clearfix so a floated figure thumbnail doesn't overlap the next entry */
 }
 
 .archive__item:hover {
