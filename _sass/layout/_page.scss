@@ -55,6 +55,21 @@
     border-bottom: 1px solid var(--global-border-color);
   }
 
+  .news-list {
+    margin: 0 0 $indent-var;
+    padding-left: 1.25em;
+
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .news-date {
+    font-weight: bold;
+    color: var(--global-base-color);
+    white-space: nowrap;
+  }
+
   p, li, dl {
     font-size: 1em;
   }

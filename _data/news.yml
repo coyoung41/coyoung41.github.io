@@ -1,0 +1,20 @@
+# -----------------------------------------------------------------------
+# News items shown in the "News" section on the home page (/).
+#
+# To add an entry, just add another list item below - no HTML needed.
+# Items are automatically sorted newest-first, so you can add them
+# anywhere in this file.
+#
+#   date : any day in the relevant month, e.g. the 1st (only "Month Year"
+#          is displayed, so the day itself doesn't matter)
+#   text : the news item. Markdown (links, bold, etc.) works here.
+# -----------------------------------------------------------------------
+
+- date: 2026-07-26
+  text: 'We are organizing the [*PTA: From Pretrained Representations to Acting Agents*](https://ptaworkshop.github.io/) workshop at [NeurIPS 2026](https://nips.cc/).'
+
+# - date: 2026-06-15
+#   text: 'Our paper "Less Tuning, Better Planning: Simplifying Offline Model-Based Planning" (SHARP) was accepted to the ICML 2026 workshop on Decision-Making from Offline Datasets to Online Adaptation.'
+
+# - date: 2026-01-01
+#   text: 'Our paper "Restoring Noisy Demonstration for Imitation Learning With Diffusion Models" was published in IEEE Transactions on Neural Networks and Learning Systems.'
