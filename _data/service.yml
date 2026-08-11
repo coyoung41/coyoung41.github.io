@@ -1,0 +1,31 @@
+# -----------------------------------------------------------------------
+# Professional service data, shown on the "Activity" page (/activity/).
+#
+# To add/update an entry, just edit the lists below - no HTML needed.
+#
+# reviewer entries:
+#   venue : name of the conference/journal (required)
+#   years : list of years you reviewed for (required)
+#   url   : link to the venue's website (optional)
+#
+# organizer entries:
+#   name : name of the event (required)
+#   role : your role / how it fits into a larger event, e.g. "Workshop at NeurIPS 2026" (optional)
+#   url  : link to the event's website (optional)
+# -----------------------------------------------------------------------
+
+reviewer:
+  - venue: "ICLR"
+    years: [2025, 2026]
+    url: "https://iclr.cc/"
+  - venue: "ICML"
+    years: [2026]
+    url: "https://icml.cc/"
+  - venue: "ACML"
+    years: [2024]
+    url: "https://www.acml-conf.org/"
+
+organizer:
+  - name: "PTA: From Pretrained Representations to Acting Agents"
+    role: "Workshop at NeurIPS 2026"
+    url: "https://ptaworkshop.github.io/"

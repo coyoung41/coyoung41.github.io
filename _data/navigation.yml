@@ -11,6 +11,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Activity"
+    url: /activity/
+
   # - title: "Talks"
   #   url: /talks/    
 
